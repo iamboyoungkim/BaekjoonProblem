@@ -1,5 +1,3 @@
-// dynamic programming
-
 #include <iostream>
 #include <cstdio>
 #include <cstdlib>
