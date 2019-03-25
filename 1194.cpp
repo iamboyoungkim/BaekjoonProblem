@@ -36,7 +36,8 @@ int bfs() {
             int nextY = y + dy[i];
             int original = visit[x][y][bit];
             
-            if (nextX < 0 || nextX >= n || nextY < 0 || nextY >= m || maze[nextX][nextY] == '#' || visit[nextX][nextY][bit] != 0) // 범위 초과 or 벽 or 방문했을 때
+            if (nextX < 0 || nextX >= n || nextY < 0 || nextY >= m || maze[nextX][nextY] == '#' || visit[nextX][nextY][bit] != 0) 
+            // 범위 초과 or 벽 or 방문했을 때
                 continue;
             if (maze[nextX][nextY] >= 'a' && maze[nextX][nextY] <= 'z') { // 언제나 이동 가능. 열쇠를 집음 -> 새로 추가
                 newPos = bit | (1 << (maze[nextX][nextY]) - 'a');
