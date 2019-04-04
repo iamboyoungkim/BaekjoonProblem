@@ -11,6 +11,7 @@
         "typeinfo": "cpp",
         "algorithm": "cpp",
         "iosfwd": "cpp",
-        "cstdio": "cpp"
+        "cstdio": "cpp",
+        "utility": "cpp"
     }
 }
